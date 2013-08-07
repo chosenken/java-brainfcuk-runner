@@ -93,7 +93,7 @@ public class BrainFcuk {
 				buffer[ptr]--;
 				break;
 			case ".":
-				System.out.print((char)(buffer[ptr % 255]));
+				System.out.print((char)(buffer[ptr]));
 				break;
 			case "[":
 				if (buffer[ptr] == 0 ) {
